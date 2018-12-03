@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import { Router } from "@reach/router";
+import { Container,Container_Router } from './Components/Layout_Style';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+import Sample from './Pages/Sample';
+import Contact from './Pages/Contact';
 import './App.css';
 
+// git remote add origin https://github.com/RX-01/Next_01.git
+// git push -u origin master
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Container>
+      <Navbar />
+      <Router className = 'Container_Body'>
+        <Home path="/" />
+        <Sample path="sample/:sampleID" />
+        <Contact path="contact" />
+      </Router>
+    </Container>
     );
   }
 }

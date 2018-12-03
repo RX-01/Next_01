@@ -1,4 +1,13 @@
-.App {
+.Container_Body {
+  background: white;
+  grid-row: 2 / -1;
+  grid-column: 1 /-1;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-gap: 10px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +38,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
