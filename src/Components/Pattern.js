@@ -7,5 +7,5 @@ const Pattern = () => {
     <path fill = "#000" d = {path}> </path>  </svg>
   );
 };
-
-export default Pattern;
+434 1221 - Juno 
+export default Pattern; Elka Roberts - Correara 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { Router } from "@reach/router";
-import { Container,Container_Router } from './Components/Layout_Style';
+import { Container} from './Components/Layout_Style';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Sample from './Pages/Sample';

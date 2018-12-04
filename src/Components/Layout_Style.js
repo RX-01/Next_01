@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { Router } from "@reach/router";
 
 
@@ -23,7 +23,7 @@ export const Container_Router = styled(Router)`
 
 
 
-export const Profile_Gallery = styled.div`
+export const ProfileGallery = styled.div`
   margin-top: 15px;
   background: white;
   grid-column: 2 / -2;
@@ -126,7 +126,7 @@ export const Thumb = styled.div`
 `;
 
 
-export const Thumb_Overlay = styled.div`
+export const ThumbOverlay = styled.div`
   background: white;
   width: 100%;
   height: 100%;
@@ -135,7 +135,7 @@ export const Thumb_Overlay = styled.div`
   opacity: .01;
 `;
 
-export const Thumb_Img = styled.img`
+export const ThumbImg = styled.img`
   grid-row: 1 / -1;
   grid-column: 1 /-1;
   max-width: 100%;

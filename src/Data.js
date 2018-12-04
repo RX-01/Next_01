@@ -7,7 +7,7 @@ elements. The result is a caramel chocolate bar with a
 
 const Data = [
   {
-    title: "Phelpa Caramel Choclate",
+    title: "Phelpa Caramel Chocolate",
     slug: "phelpa",
     description: Phelpa,
     label: {
@@ -90,6 +90,62 @@ const Data = [
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPosters%2FParty_4.png?alt=media&token=89357348-12db-49aa-886b-4a4abea4883d',
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPosters%2FParty_5.png?alt=media&token=3d09beb1-1644-4abd-aa4f-f4ef7ff2193c',
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPosters%2FParty_6.png?alt=media&token=9f25a658-3ee9-4a81-8dc8-e239911484f9',
+    ]
+  
+  },
+
+  {
+    title: 'Logo Design',
+    slug: "logos",
+    description: Phelpa,
+    label:{
+      title:'poster design',
+      color: '#577CEF'
+    },
+    caption:Phelpa,
+    thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLOGO_THUMB_3.png?alt=media&token=aec834fd-dc9a-402e-b8a7-980175eeefec`,
+    gallery : [
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_01.png?alt=media&token=90b04ada-49b1-4c24-90d6-e9bf67b42145',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_2.png?alt=media&token=7319e556-dd3a-43c0-bb2e-8cbbe1f3cc69',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_3.png?alt=media&token=6f54b483-c7de-4b98-aa4e-8dcaaa8505f0',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_4.png?alt=media&token=5d18cfa6-021f-46cb-b1f2-dde8f6515f3e',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_5.png?alt=media&token=f8ff49df-ecfd-474f-aef9-ba8883b3405c',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_6.png?alt=media&token=cfc32fdd-3e94-4a81-84bc-1a66ec2f1d40',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_7.png?alt=media&token=e1b0798e-4f61-4031-84b2-e3f8a58ff9cd',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_9.png?alt=media&token=78816367-069b-4d85-b284-3741670b39f8',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_10.png?alt=media&token=b7941357-361d-40bb-a7ae-4703f0167ff8',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_8.png?alt=media&token=57d55fd6-b5dd-4efa-9277-afb495e338e4',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_extra_01.png?alt=media&token=a76aad3c-d9ff-43d1-9110-64c8ecf74c01'
+
+    ]
+  
+  },
+
+  {
+    title: 'Photography',
+    slug: "photos",
+    description: Phelpa,
+    label:{
+      title:'Photography',
+      color: '#FFC757'
+    },
+    caption:Phelpa,
+    thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2FPhoto_thumb.png?alt=media&token=729ec6fe-77d9-4692-9ca7-d604b82154bb`,
+    gallery : [
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F0416afe24fd33829d24395f2af9978c0.jpg?alt=media&token=6a91b6b9-1f52-4399-a130-f8ce467d35b1',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F43f087aa7aad149405edb14935c4a710.jpg?alt=media&token=2af66cb4-0e80-4f89-80e5-95aeafe3e285',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F8aa4416c424464ae2f7410b0affa1016.jpg?alt=media&token=108b2f14-6eb4-4b70-b5a7-23d65a47f643',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F8f28e9f8e53d162f7ecc37a665b5b861.jpg?alt=media&token=346175ea-eaa2-4301-b1e8-ed36471df908',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2Fa57fc636b778c0baa91f8fa6cc4acc9f.jpg?alt=media&token=450356d2-6fe6-4a30-9ad3-3012a6128cf8',
+      // 'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2FIMG_9144.png?alt=media&token=1148d8d0-d4df-4936-90a1-d02d8792814c',
+      // 'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2FIMG_9419.png?alt=media&token=e04cf895-b0c9-4448-908d-71d0408cc536',
+      // 'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2FIMG_9435.png?alt=media&token=71e82eda-ec28-47a4-bd52-b77e1b07dcca',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F21a3ce20936439.5604359347a8e.jpg?alt=media&token=676ea9c1-19a7-40b1-b337-602216cd5184',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F747c1520936443.56043594e8858.jpg?alt=media&token=bd7fb1da-3449-43af-bf04-14bfc4f08ffe',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F1d9a0f20936429.5604358589977.jpg?alt=media&token=6c5ae7ff-05fe-45ed-ba82-b21cbd7a5fc5',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2Fb4e01720936431.56043594921df.jpg?alt=media&token=2e445097-3237-4c28-89c8-ca16fce39008',
+      'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2Ffe22d920936435.560435d67cb81.jpg?alt=media&token=1cdadb49-3ecd-426b-8cb3-a5f9b96e8018'
+
     ]
   
   },

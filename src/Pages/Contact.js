@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact_Body, Inner_Contact } from "../Components/Layout_Style";
+
 
 
 const Contact = () => {

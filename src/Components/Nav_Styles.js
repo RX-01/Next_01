@@ -12,16 +12,17 @@ export const Nav = styled.div`
  
 `;
 
-export const Nav_Logo = styled.div`
+export const NavLogo = styled.div`
   background: white;
-  grid-column: 2/4;
+  /* grid-column: 2/4; */
+  grid-column: 6/10;
   display: grid;
   justify-items: center;
   align-items: center;
   padding: 5px;
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
-    /* grid-column: 6/10; */
+    grid-column: 6/10;
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -33,15 +34,15 @@ export const Nav_Logo = styled.div`
 }
 `;
 
-export const Nav_Img = styled.img`
-   max-width: 72px;
+export const NavImg = styled.img`
+   max-width: 84px;
   height: auto;
   object-fit: scale-down;
 `;
 
-export const Nav_Links = styled.div`
+export const NavLinks = styled.div`
    grid-column: 10 / -2;
-  display: grid;
+  display: none;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
@@ -64,7 +65,7 @@ export const Nav_Links = styled.div`
 
 
 
-export const Nav_Link = styled(Link)`
+export const NavLink = styled(Link)`
   cursor: hand;
   color: #E40218;
   font-family: "Montserrat", sans-serif;
