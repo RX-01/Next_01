@@ -13,7 +13,7 @@ const Home = () => {
        <Card backColor = {info.label.color}  key={index}>
          <Thumb>
             <Link to={`/sample/${info.slug}`}  state={{ sampleId:info}}>
-              <ThumbImg src={info.thumb} alt="hello" />
+              <ThumbImg src={info.thumb} alt="Shalom Creates" />
            </Link>
          </Thumb>
        </Card>

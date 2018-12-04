@@ -1,9 +1,25 @@
-const Phelpa = `The design treatment required for 
-the Phelpa packaging was to create a balance between 
-indulgence and approachability. I used a seemingly 
-“simple” flow pack and contrasted it with premium design 
-elements. The result is a caramel chocolate bar with a
- light-hearted look and quality feel, with simplicity, elegance and presence.`;
+const Phelpa = `The design treatment required for the Phelpa packaging was 
+to create a balance between indulgence and approachability. I used a seemingly 
+“simple” flow pack and contrasted it with premium design elements. 
+The result is a caramel chocolate bar with a light-hearted 
+look and quality feel, with simplicity, elegance, and presence.`;
+
+const Sardo = `Sardo Cosmetics Services is a Vincentian company created by Augustine Sutherland 
+he is a professional hair technician with 
+a passion for organic products inspired by his Kalinago heritage. 
+I was tasked with refreshing the branding so that it better reflected 
+the tribal heritage of the Kalinago tribe while keeping the branding 
+ constant and clear`;
+
+ const Posters = 'A Collection of some of my Poster Designs';
+
+ const Logo = 'A Collection of some of my Logo Designs';
+
+ const Photo = 'Selection photos from my Photography portfolio';
+
+ const Lacoda = `Lacoda is a Caribbean company that creates all natural soaps from tropical fruits and vegetables.  
+ This design proposal was created to update their branding in a way that reinforced the tropical and alluring tone that their brand conveys.`
+
 
 const Data = [
   {
@@ -14,7 +30,6 @@ const Data = [
       title: "package design",
       color: "#FFE7D9"
     },
-    caption: Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2Fphelpa%2Fphelpa_thumbnail_updated.png?alt=media&token=656d8496-b2ad-40b0-b52d-4b86a0cc11a5`,
     background: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2Fphelpa%2Fphelpa_poster_02.jpg?alt=media&token=8c17eec7-f3c7-4c3f-87e1-f5f8c32a160b`,
     gallery: [
@@ -28,12 +43,11 @@ const Data = [
   {
     title: 'Sardo Cosmetics',
     slug: "sardo",
-    description: Phelpa,
+    description: Sardo,
     label:{
       title:'package design',
       color: '#FF7D63'
     },
-    caption:Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FSardo%2FSardo_logo.png?alt=media&token=25586ff9-a647-40b4-9de0-ce983738d19a`,
     background: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2Fphelpa%2Fphelpa_poster_02.jpg?alt=media&token=8c17eec7-f3c7-4c3f-87e1-f5f8c32a160b`,
     gallery : [
@@ -51,12 +65,11 @@ const Data = [
   {
     title: 'Lacoda Baths and Sparkles',
     slug: "lacoda",
-    description: Phelpa,
+    description: Lacoda,
     label:{
       title:'package design',
       color: '#40C8D0'
     },
-    caption:Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2Flacoda%2FLacoda_thumbnail_2.png?alt=media&token=3dcd1d97-3380-49e7-a79e-fa39ab069d11`,
     gallery : [
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2Flacoda%2FLac%201.png?alt=media&token=316bc646-1dfa-4539-af9d-322fbca678bf',
@@ -76,12 +89,11 @@ const Data = [
   {
     title: 'Poster Design',
     slug: "posters",
-    description: Phelpa,
+    description:Posters ,
     label:{
       title:'poster design',
       color: '#92101E'
     },
-    caption:Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPosters%2FPoster_Thumbs.png?alt=media&token=f69cb8a4-cd06-4417-bf11-ccab94c3dea4`,
     gallery : [
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPosters%2FParty_1.png?alt=media&token=e718b134-7e5f-4f78-8bc5-91ef1203bed0',
@@ -97,12 +109,11 @@ const Data = [
   {
     title: 'Logo Design',
     slug: "logos",
-    description: Phelpa,
+    description: Logo,
     label:{
       title:'poster design',
       color: '#577CEF'
     },
-    caption:Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLOGO_THUMB_3.png?alt=media&token=aec834fd-dc9a-402e-b8a7-980175eeefec`,
     gallery : [
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FLogos%2FLogo_01.png?alt=media&token=90b04ada-49b1-4c24-90d6-e9bf67b42145',
@@ -124,12 +135,11 @@ const Data = [
   {
     title: 'Photography',
     slug: "photos",
-    description: Phelpa,
+    description: Photo,
     label:{
       title:'Photography',
       color: '#FFC757'
     },
-    caption:Phelpa,
     thumb: `https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2FPhoto_thumb.png?alt=media&token=729ec6fe-77d9-4692-9ca7-d604b82154bb`,
     gallery : [
       'https://firebasestorage.googleapis.com/v0/b/newagent-5f7e1.appspot.com/o/Gallery%2FPortfolio_Gallery_01%2FPhotos%2F0416afe24fd33829d24395f2af9978c0.jpg?alt=media&token=6a91b6b9-1f52-4399-a130-f8ce467d35b1',

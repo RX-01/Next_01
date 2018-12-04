@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, NavLogo, NavLinks, NavLink, NavImg } from "./Nav_Styles";
 import Love_Fav from '../Files/Logo_Fav.png'
-import Loader from "./Loader";
+
 // import topography from '../Files/topography.svg'
 
 

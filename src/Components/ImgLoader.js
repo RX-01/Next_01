@@ -1,6 +1,6 @@
-import React, { Component,Fragment } from 'react'
-import Loader from './Loader';
-
+import React, { Component } from 'react'
+import Loaded from '../Files/Loaded.svg'
+import {ProjectCard,ProjectCardImg,ProjectCardDetails} from "../Components/sampleStyle";
 export default class ImgLoader extends Component {
 
   constructor (props) {
@@ -19,15 +19,14 @@ handleLoad = (e)=> {
 }
   render() {
     const {isLoaded} = this.state
-    const {img} = this.props
+    const {source, desc} = this.props
         return (
-            <Fragment>
-            
-              <ImgBody loader = {Loader} loaded = {isLoaded} medium = {true}>
-             <img onLoad = {this.handleLoad} src= {img}   alt="pretty kitty"/>
-            </ImgBody>
-                
-            </Fragment>
+        
+            <ProjectCard  backImg = {isLoaded ? 'none' : Loaded}>
+               <ProjectCardImg onLoad = {this.handleLoad} active = {!isLoaded} src={source} alt="hello"/>
+            </ProjectCard>
         )
   }
 }
+
+// <ProjectCardDetails><h3>{Hello}</h3></ProjectCardDetails>
